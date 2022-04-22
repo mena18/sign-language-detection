@@ -20,14 +20,6 @@ def readb64(uri):
 app = FastAPI()
 
 
-origins = [
-    "http://localhost:3001",
-    "http://localhost:8080",
-    "http://127.0.0.1:5500",
-    "http://127.0.0.1:5501",
-]
-
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=['*'],
@@ -39,48 +31,8 @@ app.add_middleware(
 sign_predictor = SignPredictor()
 
 
-
-
-@app.post('/multi')
-async def multi(file:UploadFile = File(...)):
-    with open(f'temp_video.mp4','wb') as buffer:
-        shutil.copyfileobj(file.file,buffer)
-    
-    cap = cv2.VideoCapture("temp_video.mp4")
-    output = sign_predictor.process_multisign(cap)
-
-    
-    return {"text":output}
-
-
-
-
-@app.post('/single')
-async def single(file:UploadFile = File(...)):
-    with open(f'temp_video.mp4','wb') as buffer:
-        shutil.copyfileobj(file.file,buffer)
-    
-    cap = cv2.VideoCapture("temp_video.mp4")
-    output = sign_predictor.process_sign(cap)
-
-    
-    return {"text":output}
-
-
 class Data(BaseModel):
     data: List
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @app.post("/test")
