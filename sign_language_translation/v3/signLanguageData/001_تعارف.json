@@ -1,15 +1,25 @@
 {
-  "sign_001_1": { "words": ["تعارف"], "description": "" },
+  "sign_001_1": {
+    "words": ["تعارف"],
+    "description": "",
+    "video_num": 4,
+    "sign_time": "3:30"
+  },
   "sign_001_2": {
     "words": ["السلام", "سلام", "مرحبا", "ترحيب"],
     "description": ""
   },
   "sign_001_3": { "words": ["عليكم", "لكم", "كلنا"], "description": "" },
   "sign_001_4": { "words": ["رحمه"], "description": "" },
-  "sign_001_5": { "words": ["الله","لله"], "description": "" },
+  "sign_001_5": { "words": ["الله", "لله"], "description": "" },
   "sign_001_6": { "words": ["بركاته", "بركة"], "description": "" },
-  "sign_001_7": { "words": ["عامل", "حالك"], "description": "" },
-  "sign_001_8": { "words": ["اية", "كيف","ازاي"], "description": "" },
+  "sign_001_7": {
+    "words": ["عامل", "حالك"],
+    "description": "",
+    "video_num": 4,
+    "sign_time": "6:30"
+  },
+  "sign_001_8": { "words": ["اية", "كيف", "ازاي"], "description": "" },
   "sign_001_9": { "words": ["الحمد", "شكر"], "description": "" },
   "sign_001_10": { "words": ["تمام", "جيد"], "description": "" },
   "sign_001_11": { "words": ["صباح"], "description": "" },
@@ -44,7 +54,12 @@
   "sign_001_40": { "words": ["اشارة"], "description": "" },
   "sign_001_41": { "words": ["وحشتنى", "افتدقدك"], "description": "" },
   "sign_001_42": { "words": ["بعلمك"], "description": "" },
-  "sign_001_43": { "words": ["بتعلمنى"], "description": "" },
+  "sign_001_43": {
+    "words": ["بتعلمنى"],
+    "description": "",
+    "video_num": 4,
+    "sign_time": "21:25"
+  },
   "sign_001_44": { "words": ["بتعلم"], "description": "" },
   "sign_001_45": { "words": ["ما هى"], "description": "" },
   "sign_001_46": { "words": ["عندك"], "description": "" },
@@ -59,7 +74,12 @@
     "words": ["عمل", "فعل"],
     "description": "معناها تعمل بس مش وظيفة مثال: انت بتعمل اية دلوقتى"
   },
-  "sign_001_55": { "words": ["اساعد"], "description": "" },
+  "sign_001_55": {
+    "words": ["اساعد"],
+    "description": "",
+    "video_num": 5,
+    "sign_time": "5:10"
+  },
   "sign_001_56": { "words": ["اساعدك"], "description": "" },
   "sign_001_57": { "words": ["تساعدنى"], "description": "" },
   "sign_001_58": { "words": ["كم"], "description": "" },
@@ -67,31 +87,61 @@
   "sign_001_60": { "words": ["عارف"], "description": "" },
   "sign_001_61": { "words": ["مش عارف"], "description": "" },
   "sign_001_62": { "words": ["فلوس"], "description": "" },
-  "sign_001_63": { "words": ["شكرا"], "description": "" },
+  "sign_001_63": {
+    "words": ["شكرا"],
+    "description": "",
+    "video_num": 5,
+    "sign_time": "7:10"
+  },
   "sign_001_64": { "words": ["مع السلامة"], "description": "" },
-  "sign_001_65": { "words": ["عايز"], "description": "" },
+  "sign_001_65": {
+    "words": ["عايز"],
+    "description": "",
+    "video_num": 5,
+    "sign_time": "7:30"
+  },
   "sign_001_66": { "words": ["تيجى"], "description": "" },
   "sign_001_67": { "words": ["معايا"], "description": "" },
   "sign_001_68": { "words": ["عنوان"], "description": "" },
-  "sign_001_69": { "words": ["شارع", "طريق"], "description": "" },
-  "sign_001_70": { "words": ["بحب","احب","حب","يحب","تحب"], "description": "" },
+  "sign_001_69": {
+    "words": ["شارع", "طريق"],
+    "description": "",
+    "video_num": 5,
+    "sign_time": "9:45"
+  },
+  "sign_001_70": {
+    "words": ["بحب", "احب", "حب", "يحب", "تحب"],
+    "description": "",
+    "video_num": 5,
+    "sign_time": "12:20"
+  },
   "sign_001_71": { "words": ["انا بحبك"], "description": "" },
   "sign_001_72": { "words": ["اشرب"], "description": "" },
   "sign_001_73": { "words": ["اكل"], "description": "" },
   "sign_001_74": {
     "words": ["اصدقاء", "صحاب", "صديق", "صاحب"],
-    "description": ""
+    "description": "",
+    "video_num": 5,
+    "sign_time": "11:45"
   },
   "sign_001_75": { "words": ["نعم"], "description": "" },
   "sign_001_76": { "words": ["لا"], "description": "" },
   "sign_001_77": { "words": ["موافق"], "description": "" },
   "sign_001_78": { "words": ["مش موافق"], "description": "" },
-  "sign_001_79": { "words": ["عائله"], "description": "" },
-  "sign_001_80": { "words": ["اب", "بابا"], "description": "" },
+  "sign_001_79": {
+    "words": ["عائله"],
+    "description": "",
+    "video_num": 6,
+    "sign_time": "1:50"
+  },
+  "sign_001_80": {
+    "words": ["اب", "بابا"],
+    "description": ""
+  },
   "sign_001_81": { "words": ["ماما", "ام"], "description": "" },
   "sign_001_82": { "words": ["ولد"], "description": "" },
   "sign_001_83": { "words": ["رجل"], "description": "" },
-  "sign_001_84": { "words": ["امرأة", "ست","مؤنث"], "description": "" },
+  "sign_001_84": { "words": ["امرأة", "ست", "مؤنث"], "description": "" },
   "sign_001_85": { "words": ["بنت"], "description": "" },
   "sign_001_86": { "words": ["اخوات"], "description": "" },
   "sign_001_87": { "words": ["اخ", "اخ رجل"], "description": "" },
