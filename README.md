@@ -11,3 +11,4 @@ the project consist of 4 main ML models models
 - text to speech
   
 all these models are hosted in the cloud (Azure/AWS) as services and called by the mobile application
+[Project Demo](https://drive.google.com/file/d/1hUkpaNWzSGavknSRrr8tHREaXOR5gFop/view?usp=drive_link)
